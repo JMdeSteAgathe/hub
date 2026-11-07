@@ -1,0 +1,18 @@
+hub variants_classes
+shortLabel Variants classes
+longLabel Variants classes multi-centres (PSL, Nimes...) - hg38
+useOneFile on
+email a_renseigner@example.org
+
+genome hg38
+
+track variants_classes
+shortLabel Variants classes
+longLabel Variants classes par centre (couleur = classification ACMG)
+type bigBed 9 +
+bigDataUrl variants_classes.bb
+itemRgb on
+visibility pack
+mouseOver $name | $gene | $classification | $centres
+filterValues.classification Pathogenic,Likely Pathogenic,Uncertain Significance,Likely Benign,Benign
+filterLabel.classification Classification
