@@ -2,7 +2,7 @@ hub variants_classes
 shortLabel Variants classes
 longLabel Variants classes multi-centres (PSL, Nimes...) - hg38
 useOneFile on
-email a_renseigner@example.org
+email jean-madeleine.de_sainte_agathe@sorbonne-universite.fr
 
 genome hg38
 
