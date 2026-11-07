@@ -13,6 +13,6 @@ type bigBed 9 +
 bigDataUrl variants_classes.bb
 itemRgb on
 visibility pack
-mouseOver $name | $gene | $classification | $centres
+mouseOver $name | $gene | $classification | $centres<br>$vcf | $hgvsc
 filterValues.classification Pathogenic,Likely Pathogenic,Uncertain Significance,Likely Benign,Benign
 filterLabel.classification Classification
